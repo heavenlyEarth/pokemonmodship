@@ -1,0 +1,93 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="javascript.js">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+</script>
+</div>
+<button onclick="setRandomColor()">Random Color
+</button>
+<body>
+
+    <div class="container">
+      <div id="content">
+
+<!-- BB RP Update Rows -->
+
+        <div class="sizeCorrector">
+          <div class="Row">
+            <div class="Column top">
+              <p id="updateRoll" class="top"></p>
+            </div>
+            <div class="Column top">
+              <p id="updateItem" class="top">Click a button!</p>
+            </div>
+            <div class="Column top">
+              <p id="Pokemon" class="top"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="Row">
+          <div class="Column bottom">
+              <ul>
+                <button class="gen" onclick="chooseRPBonus(); setRandomColor();">Roleplay Bonus
+                </button>
+              </ul>
+          </div>
+          <div class="Column bottom">
+              <ul>
+                <button class="gen" onclick="randomRoleplayItem(); setRandomColor();">RP Update Item
+                </button>
+              </ul>
+          </div>
+          <div class="Column bottom">
+            <ul>
+              <button class="gen" onclick="pokemonRoll(); setRandomColor();">Unevolved Pokemon
+              </button>
+            </ul>
+          </div>
+        </div>
+
+
+<!-- BB RP Bonus rows -->
+
+        <div class="sizeCorrector">
+          <div class="Row">
+            <div class="Column top">
+              <p id="BBItem" class="top"></p>
+            </div>
+            <div class="Column top">
+              <p id="BBTier" class="top"></p>
+            </div>
+            <div class="Column top">
+              <p id="RPUpdate" class="top"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="Row">
+          <div class="Column bottom">
+            <ul>
+              <button class="gen" onclick="randomBBItem(); setRandomColor();">BB Bonus Item
+              </button>
+            </ul>
+          </div>
+          <div class="Column bottom">
+            <ul>
+              <button class="gen" onclick="randomBB(); setRandomColor();">Shiny/Special roll
+              </button>
+            </ul>
+          </div>
+          <div class="Column bottom">
+            <ul>
+              <button class="gen" onclick="chooseRPBonus(); setRandomColor();">Placeholder
+              </button>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
