@@ -1,4 +1,4 @@
-html, body {
+body {
   overflow-x: hidden;
   overflow-y: hidden;
   height: 100%;
@@ -6,10 +6,17 @@ html, body {
   position: absolute;
   background-color: black;
   background-image: url('https://orig00.deviantart.net/97b5/f/2018/009/0/3/forest_by_arkeis_andor_by_iamirrora-dbzi4wu.jpg');
-  background-repeat:repeat-x;
   background-position: top;
   z-index: -2;
   display: inline;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+.sayings {
+  font-size: 50%;
 }
 
 .sizeCorrector {
@@ -85,6 +92,7 @@ p :hover {
 .container {
   padding-top: 6em;
   text-align: center;
+
 }
 
 
