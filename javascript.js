@@ -107,3 +107,5 @@ function memeZone() {
 
 
 var sayings = ["just my daily yell is all","it's tired and i'm 1 am","mod pants","if ur character makes commentary on ur life ur doing writing right","https://tinyurl.com/PTSM01","i pledge alleigance to the Squad to be MLG no scope pros","i hope you're having a good day - Pix",];
+
+// Code credit to pixelpixies/Kayla Morgan, all rights reserved ©2018
